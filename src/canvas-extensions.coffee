@@ -8,7 +8,7 @@ CanvasExtensions =
     do @closePath
     do @fill
 
-  strokeCircle: (x, y, diameter) ->
+  strokeCircle: (x, y, radius) ->
     do @beginPath
     @circle x, y, radius
     do @closePath
